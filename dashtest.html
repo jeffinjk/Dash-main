@@ -40,7 +40,22 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <style>
+          .oval {
+
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 10%;
+            transition: background-color 1s;
+          }
+
+          .oval:hover {
+            background-color: red;
+          }
+        </style>
+
+        <div class="oval">home</div>
         <li><a href="#">Dashboard</a></li>
         <li><a href="#">Profile</a></li>
         <li><a href="#">Settings</a></li>
